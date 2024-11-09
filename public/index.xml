@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to My Photo Gallery on Auguste Photographie</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to My Photo Gallery on Auguste Photographie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Electric images</title>
+      <link>http://localhost:1313/elec/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/elec/</guid><media:content url="http://localhost:1313/elec/3d-futuristic-background-with-low-poly-plexus-design_hu15458186256206147925.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/elec/3d-futuristic-background-with-low-poly-plexus-design_hu15458186256206147925.jpg&quot; /&gt;
+          &lt;p&gt;A collection of elec pictures&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Fractals Collection</title>
+      <link>http://localhost:1313/fractals/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fractals/</guid><media:content url="http://localhost:1313/fractals/20110_fractal_hu8053775093447214789.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/fractals/20110_fractal_hu8053775093447214789.jpg&quot; /&gt;
+          &lt;p&gt;A gallery of beautiful fractal images.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Cats</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/test/</guid><media:content url="http://localhost:1313/test/Great%20Fractal%20Art%20Wallpaper%20Top%20Quality%20Wallpapers_hu7433647057006330203.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://localhost:1313/test/Great%20Fractal%20Art%20Wallpaper%20Top%20Quality%20Wallpapers_hu7433647057006330203.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

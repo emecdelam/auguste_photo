@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Auguste Photographie'
+theme = "hugo-theme-gallery"
+[params]
+  show_menu = true
+  theme_color = "dark"   # Choose between 'light' or 'dark'
+  footer_text = "© 2024 My Gallery"
+  homepage_welcome_message = "Welcome to My Awesome Photo Gallery"
+  display_search = true  # Show or hide the search bar globally
+  show_featured_albums = true  # Display featured albums section on homepage  
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/21th.streetshots/"
+    github = "https://github.com/"
+    email = "mailto:user@example.com"
