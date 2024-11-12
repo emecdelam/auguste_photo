@@ -1,4 +1,4 @@
 ---
-title: "Cats"
+title: "Background"
 featured_image: "feature.jpg"
 ---
