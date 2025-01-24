@@ -35,7 +35,7 @@ body {
 .picture-vertical {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 500px;
 }
 .picture-horizontal {
     display: flex;
@@ -43,7 +43,7 @@ body {
     justify-content: space-evenly;
 }
 .picture {
-    width: 400px;
+    width: 300px;
     height: auto;
     object-fit: contain;
 }
@@ -59,4 +59,5 @@ body {
 
 h2 {
     font-weight: normal;
+    width: 100%;
 }
