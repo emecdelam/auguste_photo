@@ -1,0 +1,62 @@
+body {
+    font-family: "Alumni Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: .2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5D3A78A;
+}
+
+
+.menu-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.menu-btn {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.picture-container {
+    gap: 20px;
+    display: boxed;
+    
+    
+}
+.picture-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.picture-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.picture {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+.quote-wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.debug {
+    background-color: blueviolet;
+}
+
+
+h2 {
+    font-weight: normal;
+}
