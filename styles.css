@@ -1,8 +1,9 @@
 body {
     font-family: "Alumni Sans", serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
+    font-size: 4vh;
     text-align: center;
     letter-spacing: .2rem;
     display: flex;
@@ -27,37 +28,63 @@ body {
 }
 
 .picture-container {
-    gap: 20px;
-    display: boxed;
-    
-    
+    gap: 3vw;
 }
 .picture-vertical {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    justify-content: flex-end;
 }
+
 .picture-horizontal {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+.picture-whole {
+    width: 90vw;
+}
+.picture-half {
+    width: 44vw;
+}
+.picture-half-container {
+    gap: 1vw;
+}
 .picture {
-    width: 300px;
+    width: 30vw;
     height: auto;
     object-fit: contain;
 }
 .quote-wrapper {
-    display: flex;
-    width: 50%;
+    width: 70vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.subtitle {
+    padding-top: 10vh;
+}
+.about-wrapper {
+    width: 70vw;
+    padding-bottom: 10vh;
 }
 
 .debug {
     background-color: blueviolet;
 }
 
+.debug2 {
+    background-color: red;
+}
+
 
 h2 {
     font-weight: normal;
     width: 100%;
+    font-size: 4vh;
+}
+h3 {
+    font-weight: normal;
+    width: 100%;
+    font-size: 1.5vh;
+    line-height: 3vh;
 }
