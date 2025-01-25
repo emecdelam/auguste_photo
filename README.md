@@ -6,6 +6,3 @@
 The site is pushed to surge after every update
 
 For more contact information, please refer to the website
-
-
-For more contact information, please refer to the website
