@@ -14,8 +14,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy to Surge
-        uses: JamesIves/surge-action@v1
-        with:
-          surge_token: ${{ secrets.SURGE_TOKEN }}
-          project: ./
-          domain: auguste-photography.surge.sh
+        run: |
+          npm install --global surge
+          surge ./ auguste-photography.surge.sh --token ${{ secrets.SURGE_TOKEN }}
