@@ -1,0 +1,21 @@
+name: Deploy to Surge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to Surge
+        uses: JamesIves/surge-action@v1
+        with:
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          project: ./
+          domain: auguste-photography.surge.sh
