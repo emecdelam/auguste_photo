@@ -3,6 +3,11 @@
 
 # Repository for the Auguste Photography website
 
-The site is pushed to surge after every update
+The site is pushed to surge after every update using github actions.
 
-For more contact information, please refer to the website
+For more contact information, please refer to the website.
+
+## Licensing
+
+- **Code**: Licensed under the MIT License. See [LICENSE](./LICENSE).
+- **Photos**: Copyrighted by [Auguste Photography]. Unauthorized use is prohibited. Photos are considered as every file in the `/photos` directory.
