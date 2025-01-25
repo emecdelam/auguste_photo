@@ -9,13 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="camera.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="menu-bar">
-        <button class="menu-btn">
+        <button id="menu-btn" class="menu-btn" onclick="menu_clicked()">
             <img src="menu.svg">
         </button>
+        <div id="menu-dropdown" class="menu-content">
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+          </div>
     </div>
     <h1>Home</h1>
 
@@ -44,13 +49,13 @@
     <h2 class="subtitle">
         ABOUT
     </h2>
-    <div class="about-wrapper">
+    <div class="about-wrapper" id="about">
         <h3>
             As an amateur artist, I have roamed the streets with my camera in hand for over five years. Since discovering film photography in 2022, I have crafted a poetic and dreamlike visual universe. The spaces I travel through serve merely as a pretext to renew my gaze.<br><br>The time I don't spend on my studies, I divide between the darkroom, the streets, exhibitions, and photobooks. These moments of inspiration are essential to refining my vision. Photographers such as Bernard Plossu, Saul Leiter, Sarah Van Rij, Raymond Depardon, Claude Batho, Shoji Ueda, and Bernard Descamps have contributed to this enhancement of my gaze. I also draw profound inspiration from Italian neorealism films (Rossellini, Pasolini, Fellini,...) and post-war Japanese cinema (Ozu).
         </h3>
     </div>
     <img src="photos/8.JPG" style="width: 80vw;">
-    <h2 class="subtitle">
+    <h2 class="subtitle" id="work">
         WORK
     </h2>
     <div class="picture-vertical" style="gap: 1vh;">
@@ -114,12 +119,14 @@
     </div>
 
 
-    <h2 class="subtitle">
+    <h2 class="subtitle" if="contact">
         CONTACT
     </h2>
 </body>
 <footer>
     &copy; <span id="year"></span> Auguste Photography. All rights reserved.
 </footer>
-<script src="script.js"></script>
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </html>
