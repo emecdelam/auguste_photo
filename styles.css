@@ -108,20 +108,7 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .picture {
-        width: 90%;
-    }
 
-    .quote-wrapper {
-        width: 90%;
-    }
-
-    .picture-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 
 h2 {
