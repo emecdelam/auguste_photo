@@ -45,10 +45,10 @@ body {
     width: 90vw;
 }
 .picture-half {
-    width: 44vw;
+    width: 45vw;
 }
 .picture-half-container {
-    gap: 1vw;
+    justify-content: space-between;
 }
 .picture {
     width: 30vw;
